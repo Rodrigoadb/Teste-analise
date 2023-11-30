@@ -18,4 +18,17 @@ public class Calculator {
         return d/v;
     }
 
+    public int pot(int b, int e){
+        int resultado = 1;
+
+        for (int i = 0; i < e; i++) {
+            resultado = resultado * b;
+        }
+        return resultado;
+    }
+
+    public int rad(int radical){
+       return (int) Math.sqrt(radical);
+    }
+
 }
