@@ -94,7 +94,9 @@ public class CalculatorTest {
         assertEquals(16, calculator.rad(256));
         assertEquals(3, calculator.rad(9));
         assertEquals(5, calculator.rad(25));
-       assertEquals(10, calculator.rad(100));
+        assertEquals(6, calculator.rad(36));
+        assertEquals(10, calculator.rad(100));
+
 
     }
    
